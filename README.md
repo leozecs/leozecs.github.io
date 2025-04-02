@@ -13,4 +13,4 @@ Meu nome é **Leonardo Rodrigues**, sou um entusiasta da tecnologia e desenvolvi
 - SQL, Git e Github
 
 ## 🌍 Acesse o site
-👉 [Clique aqui para ver meu site](https://leozecs.github.io/meu-portfolio/)
+👉 [Clique aqui para ver meu site](https://leozecs.github.io/meu-portfolio)
