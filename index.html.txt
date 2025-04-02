@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Rodrigues - Desenvolvedor Back-End</title>
+    <link rel="stylesheet" href="styles/card.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- Parte Esquerda (Foto e Nome) -->
+            <div class="card_left">
+                <img src="assets/Leo.jpg" alt="Leonardo Rodrigues">
+                <h1>Leonardo Rodrigues</h1>
+            </div>
+
+            <!-- Parte Direita (Informações) -->
+            <div class="card_right">
+                <p><strong>📍 Localização:</strong> Vinhedo, SP</p>
+                <p><strong>🎓 Formação:</strong> Ciência da Computação - 5º Semestre</p>
+                <p><strong>💻 Tecnologias:</strong> Java, HTML, CSS, SQL, Git, APIs REST</p>
+                <p><strong>🚀 Experiência:</strong> Estágio em Salesforce - Kliente360</p>
+
+                <!-- Links -->
+                <div class="links">
+                    <a href="https://linkedin.com/in/leorodrigues1602" target="_blank">🔗 LinkedIn</a>
+                    <a href="https://github.com/leozecs" target="_blank">🐙 GitHub</a>
+                    <a href="mailto:leonrt869@gmail.com">📧 E-mail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
