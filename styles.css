@@ -1,95 +1,90 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-}
-
-/* Estilização geral */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-}
-
 /* Container do card */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Card */
 .card {
-    display: flex;
-    background: white;
-    width: 600px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px auto;
 }
 
-/* Lado esquerdo (Imagem e Nome) */
-.card_left {
-    background: #2c3e50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.card_left img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid white;
-    margin-bottom: 10px;
+/* Cabeçalho do card */
+.card-header {
+  background-color: #2C3E50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
-.card_left h1 {
-    font-size: 22px;
-    font-weight: bold;
+/* Imagem de perfil */
+.card-header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-top: 10px;
 }
 
-/* Lado direito (Informações) */
-.card_right {
-    padding: 20px;
-    flex: 1;
-    color: #333;
+/* Conteúdo do card */
+.card-body {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
 }
 
-.card_right p {
-    margin-bottom: 8px;
-    font-size: 14px;
+.card-body h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #34495E;
 }
 
-/* Links */
-.links {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.card-body p {
+  color: #7F8C8D;
+  font-size: 1em;
+  margin-bottom: 15px;
 }
 
-.links a {
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-    background: #3498db;
-    padding: 8px 12px;
-    border-radius: 5px;
-    text-align: center;
-    transition: background 0.3s ease;
+.card-body .skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.links a:hover {
-    background: #2980b9;
+.card-body .skills span {
+  background-color: #16A085;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 25px;
+  font-size: 0.9em;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.card-body .skills span:hover {
+  background-color: #1ABC9C;
+}
+
+/* Rodapé do card */
+.card-footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #ECF0F1;
+}
+
+.card-footer a {
+  color: #2C3E50;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-footer a:hover {
+  color: #16A085;
 }
