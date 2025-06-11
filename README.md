@@ -30,16 +30,12 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvi
 ├── Leo dev.jpg         # Foto de perfil
 ```
 
-## 📸 Demonstração
-
-![screenshot](./screenshot.png) <!-- Você pode substituir por um print real -->
-
 ## 📲 Acessar
  - > https://leozecs.github.io/meu-portfolio
 
 ## 👤 Sobre Mim
 **Leonardo Rodrigues**  
-Desenvolvedor Back-End na Scania  
+Desenvolvedor Back-End  
 Estudante de Ciência da Computação (5º semestre)
 
 - 📍 Vinhedo - SP
