@@ -31,7 +31,7 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvi
 ```
 
 ## 📲 Acessar
- - > https://leozecs.github.io/meu-portfolio
+ - > https://leozecs.github.io
 
 ## 👤 Sobre Mim
 **Leonardo Rodrigues**  
@@ -45,4 +45,4 @@ Estudante de Ciência da Computação (5º semestre)
 
 ---
 
-Feito com ❤️ por Leonardo Rodrigues
+Feito por Leonardo Rodrigues
